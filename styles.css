@@ -25,7 +25,7 @@ nav {
     justify-content: space-between; /* Align logo, links, and button */
     align-items: center; /* Vertically centers items */
     padding: 1rem 2rem; /* Adds spacing inside the nav */
-    background-color: #333; /* Background color of the navbar */
+    background-color: #222; /* Background color of the navbar */
     color: #fff;
     width: 100%; /* Ensures the navbar spans the full width */
     position: fixed; /* Keeps the navbar fixed at the top */
@@ -54,7 +54,7 @@ nav {
   }
   
   nav ul li a:hover {
-    color: #f0a500; /* Change link color on hover */
+    color: #4169E1; /* Change link color on hover */
   }
   
   nav .logo {
@@ -63,7 +63,7 @@ nav {
   }
   
   nav .sign-in {
-    background-color: #f0a500;
+    background-color: #1F48C3;
     border: none;
     color: #fff;
     padding: 0.5rem 1rem;
@@ -73,7 +73,7 @@ nav {
   }
   
   nav .sign-in:hover {
-    background-color: #d18b00; /* Change button background on hover */
+    background-color: #16348C; /* Change button background on hover */
   }
   
   
@@ -104,7 +104,7 @@ nav {
 }
 
 .cta-button {
-  background-color: #f0a500;
+  background-color: #1F48C3;
   color: #fff;
   border: none;
   padding: 1rem 2.5rem;
@@ -116,7 +116,7 @@ nav {
 }
 
 .cta-button:hover {
-  background-color: #d18b00; /* Darker shade on hover */
+  background-color: #16348C; /* Darker shade on hover */
   transform: scale(1.1); /* Slightly enlarge the button */
 }
 
@@ -251,7 +251,7 @@ nav {
   display: none; /* Hidden by default */
   width: 50px;
   height: 50px;
-  background-color: #f0a500; /* Button color */
+  background-color: #1F48C3; /* Button color */
   color: #fff;
   border: none;
   border-radius: 50%; /* Makes it circular */
@@ -264,7 +264,7 @@ nav {
 }
 
 .scroll-to-top:hover {
-  background-color: #d18b00; /* Button hover color */
+  background-color: #16348C; /* Button hover color */
   transform: scale(1.1); /* Slightly enlarges on hover */
 }
 
@@ -306,7 +306,7 @@ nav {
 /* Hover effect for the service card with yellow drop shadow */
 .service-card:hover {
   transform: translateY(-10px); /* Slightly lifts the card */
-  box-shadow: 0 6px 15px rgba(255, 204, 0, 0.8); /* Yellow drop shadow */
+  box-shadow: 0 6px 15px #4169E1; /* Yellow drop shadow */
 }
 
 /* Ensuring text content fits on a single line */
@@ -335,7 +335,7 @@ nav {
 
 /* Quote Button Styling */
 .quote-btn {
-  background-color: #f0a500;
+  background-color: #1F48C3;
   color: #fff;
   border: none;
   padding: 0.8rem 2rem;
@@ -348,6 +348,6 @@ nav {
 }
 
 .quote-btn:hover {
-  background-color: #d18b00; /* Darker shade on hover */
+  background-color: #16348C; /* Darker shade on hover */
   transform: scale(1.05); /* Slightly enlarge the button */
 }
