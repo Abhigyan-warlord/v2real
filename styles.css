@@ -80,8 +80,8 @@ nav {
   
 /* Styling for Home Section */
 #home {
-  background-color: #ffffff;
-  padding: 6rem 2rem;
+  background-color: #f9f9f9;
+  padding: 6rem 1rem;
   text-align: center;
 }
 
@@ -91,25 +91,37 @@ nav {
 }
 
 #home h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; /* Bold for emphasis */
   font-size: 3.5rem;
-  font-weight: bold;
-  color: #333;
+  color: #333; /* Neutral, professional dark gray */
+  line-height: 1.2;
   margin-bottom: 1rem;
+  text-transform: uppercase; /* Optional for an impactful look */
 }
 
 #home p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; /* Regular weight for readability */
   font-size: 1.25rem;
-  color: #666;
+  color: #666; /* Softer gray for secondary text */
   margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
+#home h1, #home p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 .cta-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* Semi-bold for button text */
   background-color: #1F48C3;
   color: #fff;
   border: none;
   padding: 1rem 2.5rem;
   font-size: 1.25rem;
-  font-weight: bold;
   border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -123,6 +135,7 @@ nav {
 .cta-button:focus {
   outline: none; /* Remove focus outline */
 }
+
 
       
       .hero-image {
@@ -228,6 +241,44 @@ nav {
         color: #fff;
         text-decoration: none;
       }
+
+/* Footer Styles */
+footer {
+  background-color: #222; /* Dark background */
+  color: #fff; /* Light text */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+  color: #ccc; /* Slightly lighter text */
+}
+
+/* Social Icons Styles */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff; /* Icon color */
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-link:hover {
+  color: #1F48C3; /* Highlight color on hover */
+  transform: scale(1.2); /* Slight enlargement on hover */
+}
+
 
       /* Circle that follows the cursor */
 .cursor-circle {

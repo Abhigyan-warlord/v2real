@@ -51,3 +51,4 @@ document.getElementById('scrollToServicesBtn').addEventListener('click', functio
     behavior: 'smooth'
   });
 });
+
