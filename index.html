@@ -16,20 +16,44 @@
     <nav>
       <div class="logo">V2REAL</div>
       <ul class="menu">
-        <li><a href="#home">Home</a></li>
+        <!-- <li><a href="#home">Home</a></li> -->
         <li><a href="#services">Services</a></li>
         <li><a href="#catalogue">Catalogue</a></li>
         <li><a href="#how-we-do-it">How we do it</a></li>
         <li><a href="#reviews">Reviews</a></li>
       </ul>
-      <button class="sign-in">Sign in</button>
+      <button id="signInBtn" class="sign-in">Sign in</button>
+
+      <!-- Modal Structure -->
+<!-- <div id="signInModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>Sign In</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      
+      <button type="submit" class="submit-btn">Sign In</button>
+    </form>
+    <p class="create-account">
+      Don't have an account? <a href="#">Create one now</a>
+    </p>
+  </div>
+</div> -->
+
     </nav>
   </header>
 
   <section id="home" class="hero-section">
     <h1>Welcome to the only place where your imagination turns into reality</h1>
     <p>Welcome to V2REAL Printing and Prototyping, where we transform your ideas into reality.<br>We are committed to providing a range of services.</p>
-    <button class="cta-button" id="scrollToServicesBtn">Get Instant Quote</button>
+    <button class="cta-button" class="quote-btn" id="scrollToServicesBtn">Get Instant Quote</button>
     <img src="images/image1.jpg" alt="Hero" class="hero-image">
   </section>
 
@@ -102,6 +126,27 @@
       </div>
     </div>
   </footer>
+
+  <!-- Quote Modal -->
+<div id="quoteModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>Get Instant Quote</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <label for="quote-details">Quote Details:</label>
+      <textarea id="quote-details" name="quote-details" placeholder="Write about your requirements..." rows="4" required></textarea>
+      
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+</div>
+
   
 
   <!-- Scroll to Top Button -->

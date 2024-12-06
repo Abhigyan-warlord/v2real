@@ -76,7 +76,94 @@ nav {
     background-color: #16348C; /* Change button background on hover */
   }
   
-  
+  /* Modal Background */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Above all other elements */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form .submit-btn {
+  background-color: #f0a500;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form .submit-btn:hover {
+  background-color: #d18b00;
+  transform: scale(1.05);
+}
+
+/* Create Account Link */
+.create-account {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.create-account a {
+  color: #f0a500;
+  text-decoration: none;
+}
+
+.create-account a:hover {
+  text-decoration: underline;
+}
+
   
 /* Styling for Home Section */
 #home {
@@ -136,6 +223,84 @@ nav {
   outline: none; /* Remove focus outline */
 }
 
+/* Modal Background */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Above all other elements */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form label {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form textarea {
+  resize: none; /* Prevent resizing */
+  height: auto; /* Let rows control height */
+}
+
+form .submit-btn {
+  background-color: #1F48C3;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form .submit-btn:hover {
+  background-color: #16348C;
+  transform: scale(1.05);
+}
 
       
       .hero-image {

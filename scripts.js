@@ -1,3 +1,26 @@
+// Get Elements
+const signInBtn = document.getElementById("signInBtn");
+const signInModal = document.getElementById("signInModal");
+const closeBtn = document.querySelector(".close-btn");
+
+// Open Modal
+signInBtn.addEventListener("click", () => {
+  signInModal.style.display = "flex";
+});
+
+// Close Modal
+closeBtn.addEventListener("click", () => {
+  signInModal.style.display = "none";
+});
+
+// Close Modal on Outside Click
+window.addEventListener("click", (event) => {
+  if (event.target === signInModal) {
+    signInModal.style.display = "none";
+  }
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Website loaded successfully!");
   
@@ -52,3 +75,26 @@ document.getElementById('scrollToServicesBtn').addEventListener('click', functio
   });
 });
 
+// Get Elements
+const quoteButtons = document.querySelectorAll(".quote-btn");
+const quoteModal = document.getElementById("quoteModal");
+const closeQuoteModalBtn = document.querySelector("#quoteModal .close-btn");
+
+// Open Modal on Button Click
+quoteButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    quoteModal.style.display = "flex";
+  });
+});
+
+// Close Modal on Close Button Click
+closeQuoteModalBtn.addEventListener("click", () => {
+  quoteModal.style.display = "none";
+});
+
+// Close Modal on Outside Click
+window.addEventListener("click", (event) => {
+  if (event.target === quoteModal) {
+    quoteModal.style.display = "none";
+  }
+});
